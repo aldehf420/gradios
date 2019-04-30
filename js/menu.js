@@ -6,23 +6,17 @@ var mainMenu = {
     preload : function() {
     	game.load.image('Wall_paper' , 'img/space.jpg');
         game.load.image('startButton', 'img/startbutton.png');
-<<<<<<< HEAD
-        game.load.image('controls', 'img/controls.png');
-        game.load.image('controlkey', 'img/controlkey.png');
-
-=======
         game.load.image('controls', 'img/controls.png');       
         game.load.image('controlkey', 'img/controlkey-1.png');
         game.load.image('backButton', 'img/backButton.png');
         mainMenu.load.audio('start_sound', 'audio/start_sound.mp3')
->>>>>>> upstream/master
     },
 
     create : function() {
     	var image = game.add.image(0,0,'Wall_paper');
         game.stage.background = image;
-        game.add.button(game.world.centerX-110,250,'startButton', this.startGame, this);
-        game.add.button(game.world.centerX-110,350,'controls', this.ViewControls, this);
+        game.add.button(game.world.centerX-120,210,'startButton', this.startGame, this);
+        game.add.button(game.world.centerX-110,280,'controls', this.ViewControls, this);
         easyStart = game.input.keyboard.addKey(Phaser.Keyboard.ENTER);
         music = game.add.audio('start_sound');
         music.play();
