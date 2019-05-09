@@ -6,16 +6,17 @@ var mainMenu = {
     preload : function() {
     	game.load.image('Wall_paper' , 'img/space.jpg');
         game.load.image('startButton', 'img/startbutton.png');
-<<<<<<< HEAD
-        game.load.image('controls', 'img/controls.png');
-        game.load.image('controlkey', 'img/controlkey.png');
 
-=======
-        game.load.image('controls', 'img/controls.png');       
+
+
+
+        game.load.image('controls', 'img/controls.png');
         game.load.image('controlkey', 'img/controlkey-1.png');
         game.load.image('backButton', 'img/backButton.png');
         mainMenu.load.audio('start_sound', 'audio/start_sound.mp3')
->>>>>>> upstream/master
+        game.load.image('controls', 'img/controls.png');
+        game.load.image('controlkey', 'img/controlkey.png');
+
     },
 
     create : function() {
