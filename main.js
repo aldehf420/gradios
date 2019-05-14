@@ -82,8 +82,8 @@ app.once('ready', function() {
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 900,
-    height: 600,
+    width: 1280,
+    height: 970,
     title: "Gradios",
     frame: true,
     webPreferences: {
