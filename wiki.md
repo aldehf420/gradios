@@ -108,3 +108,25 @@ npm install, start 과정에서 생길 수 있는 문제들입니다. node.js를
 * WARNING이 뜨는 경우
 
   package.json이 없는 경우입니다. 최신 파일의 경우 문제가 일어나지 않습니다.
+
+#### Electron을 사용하는 방법
+
+[Electron](https://ko.wikipedia.org/wiki/일렉트론_(소프트웨어_프레임워크))웹 애플리케이션을 위해 개발된 프런트엔드와 백엔드 구성 요소를 사용하여 데스크톱 그래픽 사용자 인터페이스 애플리케이션의 개발을 가능하게 한다. 백엔드로는 Node.js 런타임을, 프론트엔드로는 크로미엄을 사용한다.
+
+1. Gradios가 있는 폴더로 이동합니다.
+
+    ```
+    cd [grdios폴더]
+    ```
+
+2. Electron을 설치합니다.
+
+    ```
+    npm install electron -g
+    ```
+
+3. 설치가 완료 된 후 실행시키면 됩니다.
+
+    ```
+    electron .
+    ```
