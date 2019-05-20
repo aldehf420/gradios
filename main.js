@@ -82,6 +82,7 @@ app.once('ready', function() {
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
+    resizable: false,
     width: 900,
     height: 680,
     title: "Gradios",
